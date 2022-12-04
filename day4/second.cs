@@ -1,6 +1,6 @@
 using System;
 
-namespace advent_Day4_part1
+namespace advent_Day4_part2
 {
 	class Program
 	{
