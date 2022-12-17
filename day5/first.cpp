@@ -22,7 +22,7 @@ int main()
     for (int i = 0; i < boxes_input.size(); i++) {
         for(int j = boxes_input[i].length(); j >= 0; j--){
         	boxes[i].push(boxes_input[i][j]);
-		    }
+		}
     }
     
     scanf("\n");
@@ -35,8 +35,8 @@ int main()
     	for(int i = 0; i < amount; i++){
     		boxes[to].push(boxes[from].top());
     		boxes[from].pop();
-		   }
-	  }
+		}
+	}
 	
 	for(auto box : boxes){
 		cout << box.top();
